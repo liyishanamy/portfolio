@@ -14,10 +14,12 @@
 
 ***Highlights of this project***
 <ol>
-<li>First item</li>
-<li>Second item</li>
-<li>Third item</li>
-<li>Fourth item</li>
+  <li>Use <strong>Mongodb</strong> to store all the data</li>
+  <li>Use <strong>Express</strong> to make API service</li>
+  <li>Use <strong>React</strong> to make frontend</li>
+  <ol>
+    <li>Data visualization</li>
+  </ol>
 </ol>
 
 
