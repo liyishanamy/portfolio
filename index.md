@@ -4,8 +4,9 @@
 
 ### Software Development
 
-[Health Track](https://github.com/liyishanamy/healthtrackingplatform_frontend)
-
+[Health Track]
+- [Front End](https://github.com/liyishanamy/healthtrackingplatform_frontend)
+- [Back End](https://github.com/liyishanamy/healthInformation_backend)
 
 ---
 [Movie online platform](/pdf/sample_presentation.pdf)
