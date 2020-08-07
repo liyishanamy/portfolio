@@ -4,8 +4,8 @@
 
 ### Software Development
 
-[Health Track](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Health Track](https://github.com/liyishanamy/healthtrackingplatform_frontend)
+
 
 ---
 [Movie online platform](/pdf/sample_presentation.pdf)
