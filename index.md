@@ -9,9 +9,8 @@
 
 ---
 - [Front End](https://github.com/liyishanamy/healthtrackingplatform_frontend)
-- [Back End](https://github.com/liyishanamy/healthInformation_backend)<br/>
+- [Back End](https://github.com/liyishanamy/healthInformation_backend)
 - [API](https://docs.google.com/document/d/15rplKs8JGBj297dSzQFhMPIbVfc3abBbPUhmvtrWwfU/edit)
----
 
 ***Highlights of this project***
 <ol>
