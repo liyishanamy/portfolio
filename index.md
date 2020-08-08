@@ -16,9 +16,14 @@
 <ol>
   <li>Use <strong>Mongodb</strong> to store all the data</li>
   <li>Use <strong>Express</strong> to make API service</li>
-  <li>Use <strong>React</strong> to make frontend</li>
+  <li>Use <strong>Reactjs</strong> to make frontend</li>
   <ol>
-    <li>Data visualization</li>
+    <li>Using invitation code mechanism to cluster patients</li>
+    <li>Authentication+Access Token+ Refresh Token using <strong>JWT</strong></li>
+    <li>Data visualization(Visualization of the patients' data)</li>
+    <li>Chatting System using <strong>socket io</strong></li>
+    <li>Using <strong>Redux</strong> to manage the software global state</li>
+    
   </ol>
 </ol>
 
