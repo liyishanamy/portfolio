@@ -20,6 +20,7 @@
   <ol>
     <li>Using invitation code mechanism to cluster patients</li>
     <li>Authentication+Access Token+ Refresh Token using <strong>JWT</strong></li>
+    <li>Applying Pagination to the some of the API(which return large amount of data)</li>
     <li>Data visualization(Visualization of the patients' data)</li>
     <li>Chatting System using <strong>socket io</strong></li>
     <li>Using <strong>Redux</strong> to manage the software global state</li>
