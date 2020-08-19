@@ -1,3 +1,6 @@
+## About Me
+<p>My name is Yishan Li. My friends always call me Amy. I am from Chengdu, Sichuan, China. I did my undergrad in Queen's University and I am doing my master degree(data science and artificial intelligence) in University of Waterloo.</p>
+---
 ## Portfolio
 
 ---
@@ -32,6 +35,7 @@
     <li>Using <strong>regex</strong> to check the whether the password is strong enough</li>
     <li>Displaying Data visualization(Visualization of the patients' data)+ Export the Data into CSV</li>
     <li>Using <strong>Redux</strong> to manage the software global state</li>
+    <li>Chat system support both groub</li>
     <li>Performing quality assurance after implementation and taking notes of the API documentation</li>
     
   </ol>
@@ -67,6 +71,25 @@
 ### Data Science
 
 - [Music Genre classification](https://github.com/astralcai/music-genre-classification)
+<p>Worked with my team to deploy different deep learning models to classify the different music genres using TensorFlow. </p>
+***Highlights of this project***
+<ol>
+  <li>Selecting <strong>GTZAN and benchmark</strong> pre-existing dataset to train the model</li>
+  <li>Apply <strong>short-time Fourier transform</strong> to conduct data preprocessing. Specifically speaking, to tranform the invisible music data to visible spectrogram</li>
+  <li>Deploying <strong>Convolutional Neural Network</strong> and train the model to learn different music genre spectrogram.(Predicted the testing set correctly with 82% accuracy after training and optimizing our models)</li>
+  <li>We chose pre-trained network(VGG-16) as our second model.With the replacement of the original pre-trained fully connected layer and softmax classifier on top of the convolutional layers with our own fully connected hidden layer, and a softmax output layer of 5 nodes(5 possible music genre). We found out the VGG 16 model does not work well upon the spectrogram </li>
+  <li>Deploying Recurrent Neural Network and train the model to learn different music genre spectrogram.(Predicted the testing set correctly with 84% accuracy after training. To make an optimization of the RNN model, we explored another approach--RNN+attention which further enhanced the prediction result(Accuracy reaches 88% upon the unseen testing set) </li>
+  <li>We also applied several approaches to prevent overfitting</li>
+  <ol>
+    <li>To reduce the number of parameters if possible. To decrease the complexity of the model, we chose to only use the output of the final BGRU layer, which improved the classification accuracy by around 2%.</li>
+    <li>Another approach is to use validation data during training. The model was set to stop training and revert to the weights which produced the best results if the validation accuracy does not improve for 3 consecutive epochs</li>
+    <li>We also added dropouts to the classifier, where some neurons are ”shut off” for every iteration. This prevents the network from depending too much on the outputs of a small subset of neurons.</li>
+  </ol>
+  <li>Writing the final report(paper) to summarize the project()</li>
+</ol>
+
+(VGG16, convolutional neural network, recurrent neural network) 
+Predicted the music genre correctly with 82% accuracy after training and optimizing our models using GTZAN and benchmark dataset.</p>
 - [Iris Dataset-supervised learning](https://github.com/liyishanamy/iris-dataset)
 - [Hand-writting Digit](https://github.com/liyishanamy/neuralNetwork-handWrittenDigit)
 - [Iris Dataset-unsupervised learning](https://github.com/liyishanamy/iris_LVQ)
