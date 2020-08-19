@@ -67,6 +67,21 @@
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
+[Aranyaka]
+<p>Worked with student-run software-development club to build up an event-organizing tool that intends to help students organize an event using mini program in WeChat.</p>
+
+***Highlights of this project***
+<ol>
+  <li>The mini program was developed using <strong>JavaScript</strong> on cloud based Tencent platform.</li>
+  <li>The user data was managed by the Tecent platform cloud service</li>
+  <li>This project involves the process of doing research, defining business requirement, surveying the user groups, designing and optimizing user interface before starting developing the application</li>
+  <li>Ensure that the Wechat user should grant the permission before they get authorized to the service.</li>
+  <li> Focus on developing user profile page and the main page </li>
+  <li> Following the API document to ensure that the our data can be properly stored/updated/removed/showed in the database and can be successfully manipulated and interacted with the front-end program.</li>
+   <li>Performing quality assurance after implementation</li>
+
+</ol>
+
 
 ### Data Science
 
@@ -88,7 +103,7 @@
     <li>Another approach is to use validation data during training. The model was set to stop training and revert to the weights which produced the best results if the validation accuracy does not improve for 3 consecutive epochs</li>
     <li>We also added dropouts to the classifier, where some neurons are ”shut off” for every iteration. This prevents the network from depending too much on the outputs of a small subset of neurons.</li>
   </ol>
-  <li>Writing the final report(paper) to summarize the project(https://github.com/liyishanamy/music-genre-classification_report)</li>
+  <li>Writing the final report(paper) to summarize the project</li>
 </ol>
 
 
