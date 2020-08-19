@@ -71,7 +71,8 @@
 ### Data Science
 
 - [Music Genre classification](https://github.com/astralcai/music-genre-classification) 
-- [Report] (https://github.com/liyishanamy/music-genre-classification_report)
+- [Report](https://github.com/liyishanamy/music-genre-classification_report)
+
 <p>Worked with my team to deploy different deep learning models to classify the different music genres using TensorFlow.</p>
 
 ***Highlights of this project***
