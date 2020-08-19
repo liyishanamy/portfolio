@@ -70,7 +70,8 @@
 
 ### Data Science
 
-- [Music Genre classification](https://github.com/astralcai/music-genre-classification) - [Report] (https://github.com/liyishanamy/music-genre-classification_report)
+- [Music Genre classification](https://github.com/astralcai/music-genre-classification) 
+- [Report] (https://github.com/liyishanamy/music-genre-classification_report)
 <p>Worked with my team to deploy different deep learning models to classify the different music genres using TensorFlow.</p>
 
 ***Highlights of this project***
@@ -89,8 +90,7 @@
   <li>Writing the final report(paper) to summarize the project(https://github.com/liyishanamy/music-genre-classification_report)</li>
 </ol>
 
-(VGG16, convolutional neural network, recurrent neural network) 
-Predicted the music genre correctly with 82% accuracy after training and optimizing our models using GTZAN and benchmark dataset.</p>
+
 - [Iris Dataset-supervised learning](https://github.com/liyishanamy/iris-dataset)
 - [Hand-writting Digit](https://github.com/liyishanamy/neuralNetwork-handWrittenDigit)
 - [Iris Dataset-unsupervised learning](https://github.com/liyishanamy/iris_LVQ)
