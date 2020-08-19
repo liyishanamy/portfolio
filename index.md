@@ -70,8 +70,9 @@
 
 ### Data Science
 
-- [Music Genre classification](https://github.com/astralcai/music-genre-classification)
-<p>Worked with my team to deploy different deep learning models to classify the different music genres using TensorFlow. </p>
+- [Music Genre classification](https://github.com/astralcai/music-genre-classification) - [Report] (https://github.com/liyishanamy/music-genre-classification_report)
+<p>Worked with my team to deploy different deep learning models to classify the different music genres using TensorFlow.</p>
+
 ***Highlights of this project***
 <ol>
   <li>Selecting <strong>GTZAN and benchmark</strong> pre-existing dataset to train the model</li>
@@ -85,7 +86,7 @@
     <li>Another approach is to use validation data during training. The model was set to stop training and revert to the weights which produced the best results if the validation accuracy does not improve for 3 consecutive epochs</li>
     <li>We also added dropouts to the classifier, where some neurons are ”shut off” for every iteration. This prevents the network from depending too much on the outputs of a small subset of neurons.</li>
   </ol>
-  <li>Writing the final report(paper) to summarize the project()</li>
+  <li>Writing the final report(paper) to summarize the project(https://github.com/liyishanamy/music-genre-classification_report)</li>
 </ol>
 
 (VGG16, convolutional neural network, recurrent neural network) 
