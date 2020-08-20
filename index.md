@@ -16,9 +16,9 @@
 - [API](https://docs.google.com/document/d/15rplKs8JGBj297dSzQFhMPIbVfc3abBbPUhmvtrWwfU/edit)
 
 ***Highlights of this project***
-<ol>
-  <li>Use <strong>Mongodb</strong> to store all the data</li>
-  <li>Use <strong>Express</strong> to make API service</li>
+
+  1.Use <strong>Mongodb</strong> to store all the data</li>
+  2.Use <strong>Express</strong> to make API service</li>
           <ul>
             <li>Applying both <strong>access token and basic authentication</strong> method to request access to the API</li>
             <li>Implementing <strong>Authentication+Access Token+ Refresh Token</strong> using <strong>JWT</strong></li>
@@ -28,7 +28,7 @@
             <li>Applying <strong>Pagination</strong> to the some of the API(which return large amount of data)</li>
             <li>Implementing Chatting System using <strong>socket io</strong></li>
           </ul>
-  <li>Use <strong>Reactjs</strong> to make frontend</li>
+  3.Use <strong>Reactjs</strong> to make frontend</li>
         <ul>
           <li>Applying invitation code mechanism to cluster patients</li>
           <li>Using <strong>regex</strong> to check the whether the password is strong enough</li>
@@ -37,7 +37,7 @@
           <li>Using existing Library--<strong> Mapbox API</strong> to record and intuitively display where the patients live</li>
           <li>Chat system supports both group chating and private chatting</li>
           <li>Performing quality assurance after implementation and taking notes of the API documentation</li>
-        </ul></ol>
+        </ul>
 ---
 
 **Movie online platform[SQL database project]**
