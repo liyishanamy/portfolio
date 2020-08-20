@@ -63,7 +63,7 @@
 </ol>
 </ol>
 ---
-[Eat What]
+**Eat What**
 <p>
 This is a personal project a mobile app using React native, which randomly gives a recommendation of what to eat nearby based on the user’s preferred transportation. Users can be able to vieww the reviews and rating associated with the recommendation restaurants. </p>
 
@@ -77,7 +77,7 @@ This is a personal project a mobile app using React native, which randomly gives
 
 
 ---
-[Aranyaka--Mini wechat program]
+**Aranyaka--Mini wechat program**
 <p>Worked with student-run software-development club to build up an event-organizing tool that intends to help students organize an event using mini program in WeChat.</p>
 
 ***Highlights of this project***
@@ -94,6 +94,7 @@ This is a personal project a mobile app using React native, which randomly gives
 
 ### Data Science
 
+**Music Genre classification**
 - [Music Genre classification](https://github.com/astralcai/music-genre-classification) 
 - [Report](https://github.com/liyishanamy/music-genre-classification_report)
 
