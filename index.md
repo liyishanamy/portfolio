@@ -19,7 +19,7 @@
 <ol>
   <li>Use <strong>Mongodb</strong> to store all the data</li>
   <li>Use <strong>Express</strong> to make API service</li>
-    <ol>
+
       <li>Applying both <strong>access token and basic authentication</strong> method to request access to the API</li>
       <li>Implementing <strong>Authentication+Access Token+ Refresh Token</strong> using <strong>JWT</strong></li>
       <li>Applying <strong>image hash</strong> mechanism to save the users' profile pictures to stregthen the security </li>
@@ -27,7 +27,7 @@
       <li>Implementing <strong>rate limit</strong> to restrict the use of some API(ex, Users can only change password once a day)
       <li>Applying <strong>Pagination</strong> to the some of the API(which return large amount of data)</li>
       <li>Implementing Chatting System using <strong>socket io</strong></li>
-    </ol>
+    
   <li>Use <strong>Reactjs</strong> to make frontend</li>
     <ol>
       <li>Applying invitation code mechanism to cluster patients</li>
@@ -39,8 +39,6 @@
       <li>Performing quality assurance after implementation and taking notes of the API documentation</li>
     </ol>
 </ol>
-
-
 ---
 
 **Movie online platform[SQL database project]**
@@ -90,7 +88,6 @@ This is a personal project a mobile app using React native, which randomly gives
 ---
 ### Data Science
 ---
-
 ***Music Genre classification***
 - [Music Genre classification](https://github.com/astralcai/music-genre-classification) 
 - [Report](https://github.com/liyishanamy/music-genre-classification_report)
@@ -113,7 +110,6 @@ This is a personal project a mobile app using React native, which randomly gives
   <li>Writing the final report(paper) to summarize the project</li>
 </ol>
 ---
-
 - [Iris Dataset-supervised learning](https://github.com/liyishanamy/iris-dataset)
 ---
 - [Hand-writting Digit](https://github.com/liyishanamy/neuralNetwork-handWrittenDigit)
