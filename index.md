@@ -19,27 +19,26 @@
 <ol>
   <li>Use <strong>Mongodb</strong> to store all the data</li>
   <li>Use <strong>Express</strong> to make API service</li>
-  <ol>
-    <li>Applying both <strong>access token and basic authentication</strong> method to request access to the API</li>
-    <li>Implementing <strong>Authentication+Access Token+ Refresh Token</strong> using <strong>JWT</strong></li>
-    <li>Applying <strong>image hash</strong> mechanism to save the users' profile pictures to stregthen the security </li>
-    <li>Using <strong>hash/salt</strong> to store users password.</li>
-    <li>Implementing <strong>rate limit</strong> to restrict the use of some API(ex, Users can only change password once a day)
-    <li>Applying <strong>Pagination</strong> to the some of the API(which return large amount of data)</li>
-    <li>Implementing Chatting System using <strong>socket io</strong></li>
-     
-  </ol>
+    <ol>
+      <li>Applying both <strong>access token and basic authentication</strong> method to request access to the API</li>
+      <li>Implementing <strong>Authentication+Access Token+ Refresh Token</strong> using <strong>JWT</strong></li>
+      <li>Applying <strong>image hash</strong> mechanism to save the users' profile pictures to stregthen the security </li>
+      <li>Using <strong>hash/salt</strong> to store users password.</li>
+      <li>Implementing <strong>rate limit</strong> to restrict the use of some API(ex, Users can only change password once a day)
+      <li>Applying <strong>Pagination</strong> to the some of the API(which return large amount of data)</li>
+      <li>Implementing Chatting System using <strong>socket io</strong></li>
+    </ol>
   <li>Use <strong>Reactjs</strong> to make frontend</li>
-  <ol>
-    <li>Applying invitation code mechanism to cluster patients</li>
-    <li>Using <strong>regex</strong> to check the whether the password is strong enough</li>
-    <li>Displaying Data visualization(Visualization of the patients' data)+ Export the Data into CSV</li>
-    <li>Using <strong>Redux</strong> to manage the software global state</li>
-    <li>Using existing Library--<strong> Mapbox API</strong> to record and intuitively display where the patients live</li>
-    <li>Chat system supports both group chating and private chatting</li>
-    <li>Performing quality assurance after implementation and taking notes of the API documentation</li>
-    
-  </ol>
+    <ol>
+      <li>Applying invitation code mechanism to cluster patients</li>
+      <li>Using <strong>regex</strong> to check the whether the password is strong enough</li>
+      <li>Displaying Data visualization(Visualization of the patients' data)+ Export the Data into CSV</li>
+      <li>Using <strong>Redux</strong> to manage the software global state</li>
+      <li>Using existing Library--<strong> Mapbox API</strong> to record and intuitively display where the patients live</li>
+      <li>Chat system supports both group chating and private chatting</li>
+      <li>Performing quality assurance after implementation and taking notes of the API documentation</li>
+
+    </ol>
 </ol>
 
 
@@ -59,9 +58,8 @@
   <li>Developing the movie theatre website using <strong>PHP</strong></li>
   <li>Customizing the user interface.</li>
   <li>Performing quality assurance after implementation</li>
-  
 </ol>
-</ol>
+
 ---
 **Eat What**
 <p>
@@ -69,10 +67,10 @@ This is a personal project a mobile app using React native, which randomly gives
 
 ***Highlights of this project***
 <ol>
-  <li>The inspiration of doing project is originated from the real-life pain point. During the internship, my coworkers and I had a hard time deciding what to eat. So by designing this app, we could be able to get recommendation of what to eat. </li>
-  <li>The functionality of the mobile app was integrated by handling <strong>yelp API and apple maps API</strong>.</li>
-  <li>Implementing the application using <strong>react native</strong></li>
-  <li>The users will select the transportation. Based on the transportation, our application can provide the recommendation restaurants to the users. Users can view the reviews and ratings of such restaurant. If user does not like the recommendation, our system will give another one, so on so forth until users satisfies.  Once satisfied, users can click on "Let's go" button, the system will redirect you to the apple map with the routes based on the transportation method you chose</li>
+    <li>The inspiration of doing project is originated from the real-life pain point. During the internship, my coworkers and I had a hard time deciding what to eat. So by designing this app, we could be able to get recommendation of what to eat. </li>
+    <li>The functionality of the mobile app was integrated by handling <strong>yelp API and apple maps API</strong>.</li>
+    <li>Implementing the application using <strong>react native</strong></li>
+    <li>The users will select the transportation. Based on the transportation, our application can provide the recommendation restaurants to the users. Users can view the reviews and ratings of such restaurant. If user does not like the recommendation, our system will give another one, so on so forth until users satisfies.  Once satisfied, users can click on "Let's go" button, the system will redirect you to the apple map with the routes based on the transportation method you chose</li>
 </ol>
 
 
