@@ -72,7 +72,6 @@ This is a personal project a mobile app using React native, which randomly gives
       <li>The users will select the transportation. Based on the transportation, our application can provide the recommendation restaurants to the users. Users can view the reviews and ratings of such restaurant. If user does not like the recommendation, our system will give another one, so on so forth until users satisfies.  Once satisfied, users can click on "Let's go" button, the system will redirect you to the apple map with the routes based on the transportation method you chose</li>
 </ol>
 
-
 ---
 **Aranyaka--Mini wechat program**
 <p>Worked with student-run software-development club to build up an event-organizing tool that intends to help students organize an event using mini program in WeChat.</p>
@@ -88,10 +87,11 @@ This is a personal project a mobile app using React native, which randomly gives
    <li>Performing quality assurance after implementation</li>
 </ol>
 
-
+---
 ### Data Science
+---
 
-**Music Genre classification**
+***Music Genre classification***
 - [Music Genre classification](https://github.com/astralcai/music-genre-classification) 
 - [Report](https://github.com/liyishanamy/music-genre-classification_report)
 
@@ -112,11 +112,14 @@ This is a personal project a mobile app using React native, which randomly gives
   </ol>
   <li>Writing the final report(paper) to summarize the project</li>
 </ol>
-
+---
 
 - [Iris Dataset-supervised learning](https://github.com/liyishanamy/iris-dataset)
+---
 - [Hand-writting Digit](https://github.com/liyishanamy/neuralNetwork-handWrittenDigit)
+---
 - [Iris Dataset-unsupervised learning](https://github.com/liyishanamy/iris_LVQ)
+---
 - [Iris Dataset-PCA](https://github.com/liyishanamy/iris_LVQ)
 
 ---
