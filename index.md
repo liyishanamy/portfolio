@@ -117,7 +117,6 @@
 ---
 - [Iris Dataset-PCA](https://github.com/liyishanamy/iris_LVQ)
 
----
 
 
 
