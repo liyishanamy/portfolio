@@ -35,7 +35,8 @@
     <li>Using <strong>regex</strong> to check the whether the password is strong enough</li>
     <li>Displaying Data visualization(Visualization of the patients' data)+ Export the Data into CSV</li>
     <li>Using <strong>Redux</strong> to manage the software global state</li>
-    <li>Chat system support both groub</li>
+    <li>Using existing Library--<strong> Mapbox API</strong> to record and intuitively display where the patients live</li>
+    <li>Chat system supports both group chating and private chatting</li>
     <li>Performing quality assurance after implementation and taking notes of the API documentation</li>
     
   </ol>
@@ -61,13 +62,22 @@
   
 </ol>
 </ol>
+---
+[Eat What]
+<p>
+This is a personal project a mobile app using React native, which randomly gives a recommendation of what to eat nearby based on the user’s preferred transportation. Users can be able to vieww the reviews and rating associated with the recommendation restaurants. </p>
+
+***Highlights of this project***
+<ol>
+  <li>The inspiration of doing project is originated from the real-life pain point. During the internship, my coworkers and I had a hard time deciding what to eat. So by designing this app, we could be able to get recommendation of what to eat. </li>
+  <li>The functionality of the mobile app was integrated by handling <strong>yelp API and apple maps API</strong>.</li>
+  <li>Implementing the application using <strong>react native</strong></li>
+  <li>The users will select the transportation. Based on the transportation, our application can provide the recommendation restaurants to the users. Users can view the reviews and ratings of such restaurant. If user does not like the recommendation, our system will give another one, so on so forth until users satisfies.  Once satisfied, users can click on "Let's go" button, the system will redirect you to the apple map with the routes based on the transportation method you chose</li>
+</ol>
+
 
 ---
-[Eat What](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-[Aranyaka]
+[Aranyaka--Mini wechat program]
 <p>Worked with student-run software-development club to build up an event-organizing tool that intends to help students organize an event using mini program in WeChat.</p>
 
 ***Highlights of this project***
@@ -79,7 +89,6 @@
   <li> Focus on developing user profile page and the main page </li>
   <li> Following the API document to ensure that the our data can be properly stored/updated/removed/showed in the database and can be successfully manipulated and interacted with the front-end program.</li>
    <li>Performing quality assurance after implementation</li>
-
 </ol>
 
 
