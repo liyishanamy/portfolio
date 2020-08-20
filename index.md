@@ -19,29 +19,29 @@
 <ol>
   <li>Use <strong>Mongodb</strong> to store all the data</li>
   <li>Use <strong>Express</strong> to make API service</li>
-    <ul>
-      <li>Applying both <strong>access token and basic authentication</strong> method to request access to the API</li>
-      <li>Implementing <strong>Authentication+Access Token+ Refresh Token</strong> using <strong>JWT</strong></li>
-      <li>Applying <strong>image hash</strong> mechanism to save the users' profile pictures to stregthen the security </li>
-      <li>Using <strong>hash/salt</strong> to store users password.</li>
-      <li>Implementing <strong>rate limit</strong> to restrict the use of some API(ex, Users can only change password once a day)
-      <li>Applying <strong>Pagination</strong> to the some of the API(which return large amount of data)</li>
-      <li>Implementing Chatting System using <strong>socket io</strong></li>
-    </ul>
+          <ul>
+            <li>Applying both <strong>access token and basic authentication</strong> method to request access to the API</li>
+            <li>Implementing <strong>Authentication+Access Token+ Refresh Token</strong> using <strong>JWT</strong></li>
+            <li>Applying <strong>image hash</strong> mechanism to save the users' profile pictures to stregthen the security </li>
+            <li>Using <strong>hash/salt</strong> to store users password.</li>
+            <li>Implementing <strong>rate limit</strong> to restrict the use of some API(ex, Users can only change password once a day)
+            <li>Applying <strong>Pagination</strong> to the some of the API(which return large amount of data)</li>
+            <li>Implementing Chatting System using <strong>socket io</strong></li>
+          </ul>
   <li>Use <strong>Reactjs</strong> to make frontend</li>
-    <ul>
-      <li>Applying invitation code mechanism to cluster patients</li>
-      <li>Using <strong>regex</strong> to check the whether the password is strong enough</li>
-      <li>Displaying Data visualization(Visualization of the patients' data)+ Export the Data into CSV</li>
-      <li>Using <strong>Redux</strong> to manage the software global state</li>
-      <li>Using existing Library--<strong> Mapbox API</strong> to record and intuitively display where the patients live</li>
-      <li>Chat system supports both group chating and private chatting</li>
-      <li>Performing quality assurance after implementation and taking notes of the API documentation</li>
-    </ul>
+        <ul>
+          <li>Applying invitation code mechanism to cluster patients</li>
+          <li>Using <strong>regex</strong> to check the whether the password is strong enough</li>
+          <li>Displaying Data visualization(Visualization of the patients' data)+ Export the Data into CSV</li>
+          <li>Using <strong>Redux</strong> to manage the software global state</li>
+          <li>Using existing Library--<strong> Mapbox API</strong> to record and intuitively display where the patients live</li>
+          <li>Chat system supports both group chating and private chatting</li>
+          <li>Performing quality assurance after implementation and taking notes of the API documentation</li>
+        </ul>
 </ol>
 ---
 
-**Movie online platform[SQL database project]**
+***Movie online platform[SQL database project]***
 <p>Database Design Project (SQL) developed a management system for cinema to store and manipulate movies and search movies or tickets by customers.  Customers can sign up and then sign into the account to view movies time slots, buy movies tickets, manage the movies tickets, etc, whereas admin can manage all the customers' status, movies status, and check some related statistics about the recent movies, for example, which movie is the most popular one recently, etc. </p>
 
 - [Front End](https://github.com/liyishanamy/movie)
@@ -58,7 +58,7 @@
 </ol>
 
 ---
-**Eat What**
+***Eat What***
 <p>
 This is a personal project a mobile app using React native, which randomly gives a recommendation of what to eat nearby based on the user’s preferred transportation. Users can be able to vieww the reviews and rating associated with the recommendation restaurants. </p>
 
@@ -71,7 +71,7 @@ This is a personal project a mobile app using React native, which randomly gives
 </ol>
 
 ---
-**Aranyaka--Mini wechat program**
+***Aranyaka--Mini wechat program***
 <p>Worked with student-run software-development club to build up an event-organizing tool that intends to help students organize an event using mini program in WeChat.</p>
 
 ***Highlights of this project***
