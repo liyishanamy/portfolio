@@ -41,7 +41,7 @@
 </ol>
 ---
 
-***Movie online platform[SQL database project]***
+**Movie online platform[SQL database project]**
 <p>Database Design Project (SQL) developed a management system for cinema to store and manipulate movies and search movies or tickets by customers.  Customers can sign up and then sign into the account to view movies time slots, buy movies tickets, manage the movies tickets, etc, whereas admin can manage all the customers' status, movies status, and check some related statistics about the recent movies, for example, which movie is the most popular one recently, etc. </p>
 
 - [Front End](https://github.com/liyishanamy/movie)
@@ -58,8 +58,7 @@
 </ol>
 
 ***Eat What***
-<p>
-This is a personal project a mobile app using React native, which randomly gives a recommendation of what to eat nearby based on the user’s preferred transportation. Users can be able to vieww the reviews and rating associated with the recommendation restaurants. </p>
+<p>This is a personal project a mobile app using React native, which randomly gives a recommendation of what to eat nearby based on the user’s preferred transportation. Users can be able to vieww the reviews and rating associated with the recommendation restaurants. </p>
 
 ***Highlights of this project***
 <ol>
@@ -108,6 +107,7 @@ This is a personal project a mobile app using React native, which randomly gives
   </ol>
   <li>Writing the final report(paper) to summarize the project</li>
 </ol>
+
 ---
 - [Iris Dataset-supervised learning](https://github.com/liyishanamy/iris-dataset)
 ---
