@@ -16,9 +16,9 @@
 - [API](https://docs.google.com/document/d/15rplKs8JGBj297dSzQFhMPIbVfc3abBbPUhmvtrWwfU/edit)
 
 ***Highlights of this project***
-
-  1.Use <strong>Mongodb</strong> to store all the data</li>
-  2.Use <strong>Express</strong> to make API service</li> <br/>
+<ol>
+  <li>Use <strong>Mongodb</strong> to store all the data</li>
+  <li>Use <strong>Express</strong> to make API service</li> 
             -Applying both <strong>access token and basic authentication</strong> method to request access to the API<br/>
             -Implementing <strong>Authentication+Access Token+ Refresh Token</strong> using <strong>JWT</strong><br/>
             -Applying <strong>image hash</strong> mechanism to save the users' profile pictures to stregthen the security <br/>
@@ -27,7 +27,7 @@
             -Applying <strong>Pagination</strong> to the some of the API(which return large amount of data) <br/>
            -Implementing Chatting System using <strong>socket io</strong> <br/>
         
-  3.Use <strong>Reactjs</strong> to make frontend</li>
+  <li>Use <strong>Reactjs</strong> to make frontend</li>
         <ul>
           <li>Applying invitation code mechanism to cluster patients</li>
           <li>Using <strong>regex</strong> to check the whether the password is strong enough</li>
@@ -37,6 +37,7 @@
           <li>Chat system supports both group chating and private chatting</li>
           <li>Performing quality assurance after implementation and taking notes of the API documentation</li>
         </ul>
+   </ol>
 ---
 
 **Movie online platform[SQL database project]**
