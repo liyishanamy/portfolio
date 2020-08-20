@@ -37,7 +37,6 @@
       <li>Using existing Library--<strong> Mapbox API</strong> to record and intuitively display where the patients live</li>
       <li>Chat system supports both group chating and private chatting</li>
       <li>Performing quality assurance after implementation and taking notes of the API documentation</li>
-
     </ol>
 </ol>
 
@@ -67,10 +66,10 @@ This is a personal project a mobile app using React native, which randomly gives
 
 ***Highlights of this project***
 <ol>
-    <li>The inspiration of doing project is originated from the real-life pain point. During the internship, my coworkers and I had a hard time deciding what to eat. So by designing this app, we could be able to get recommendation of what to eat. </li>
-    <li>The functionality of the mobile app was integrated by handling <strong>yelp API and apple maps API</strong>.</li>
-    <li>Implementing the application using <strong>react native</strong></li>
-    <li>The users will select the transportation. Based on the transportation, our application can provide the recommendation restaurants to the users. Users can view the reviews and ratings of such restaurant. If user does not like the recommendation, our system will give another one, so on so forth until users satisfies.  Once satisfied, users can click on "Let's go" button, the system will redirect you to the apple map with the routes based on the transportation method you chose</li>
+      <li>The inspiration of doing project is originated from the real-life pain point. During the internship, my coworkers and I had a hard time deciding what to eat. So by designing this app, we could be able to get recommendation of what to eat. </li>
+      <li>The functionality of the mobile app was integrated by handling <strong>yelp API and apple maps API</strong>.</li>
+      <li>Implementing the application using <strong>react native</strong></li>
+      <li>The users will select the transportation. Based on the transportation, our application can provide the recommendation restaurants to the users. Users can view the reviews and ratings of such restaurant. If user does not like the recommendation, our system will give another one, so on so forth until users satisfies.  Once satisfied, users can click on "Let's go" button, the system will redirect you to the apple map with the routes based on the transportation method you chose</li>
 </ol>
 
 
