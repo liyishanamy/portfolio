@@ -57,7 +57,6 @@
   <li>Performing quality assurance after implementation</li>
 </ol>
 
----
 ***Eat What***
 <p>
 This is a personal project a mobile app using React native, which randomly gives a recommendation of what to eat nearby based on the user’s preferred transportation. Users can be able to vieww the reviews and rating associated with the recommendation restaurants. </p>
@@ -70,7 +69,7 @@ This is a personal project a mobile app using React native, which randomly gives
       <li>The users will select the transportation. Based on the transportation, our application can provide the recommendation restaurants to the users. Users can view the reviews and ratings of such restaurant. If user does not like the recommendation, our system will give another one, so on so forth until users satisfies.  Once satisfied, users can click on "Let's go" button, the system will redirect you to the apple map with the routes based on the transportation method you chose</li>
 </ol>
 
----
+
 ***Aranyaka--Mini wechat program***
 <p>Worked with student-run software-development club to build up an event-organizing tool that intends to help students organize an event using mini program in WeChat.</p>
 
@@ -85,7 +84,7 @@ This is a personal project a mobile app using React native, which randomly gives
    <li>Performing quality assurance after implementation</li>
 </ol>
 
----
+
 ### Data Science
 ---
 ***Music Genre classification***
