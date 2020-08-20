@@ -19,7 +19,7 @@
 <ol>
   <li>Use <strong>Mongodb</strong> to store all the data</li>
   <li>Use <strong>Express</strong> to make API service</li>
-    <ol>
+    <ul>
       <li>Applying both <strong>access token and basic authentication</strong> method to request access to the API</li>
       <li>Implementing <strong>Authentication+Access Token+ Refresh Token</strong> using <strong>JWT</strong></li>
       <li>Applying <strong>image hash</strong> mechanism to save the users' profile pictures to stregthen the security </li>
@@ -27,9 +27,9 @@
       <li>Implementing <strong>rate limit</strong> to restrict the use of some API(ex, Users can only change password once a day)
       <li>Applying <strong>Pagination</strong> to the some of the API(which return large amount of data)</li>
       <li>Implementing Chatting System using <strong>socket io</strong></li>
-  </ol>
+  </ul>
   <li>Use <strong>Reactjs</strong> to make frontend</li>
-    <ol>
+    <ul>
       <li>Applying invitation code mechanism to cluster patients</li>
       <li>Using <strong>regex</strong> to check the whether the password is strong enough</li>
       <li>Displaying Data visualization(Visualization of the patients' data)+ Export the Data into CSV</li>
@@ -37,7 +37,7 @@
       <li>Using existing Library--<strong> Mapbox API</strong> to record and intuitively display where the patients live</li>
       <li>Chat system supports both group chating and private chatting</li>
       <li>Performing quality assurance after implementation and taking notes of the API documentation</li>
-    </ol>
+    </ul>
 </ol>
 ---
 
