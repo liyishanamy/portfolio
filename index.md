@@ -27,7 +27,7 @@
       <li>Implementing <strong>rate limit</strong> to restrict the use of some API(ex, Users can only change password once a day)
       <li>Applying <strong>Pagination</strong> to the some of the API(which return large amount of data)</li>
       <li>Implementing Chatting System using <strong>socket io</strong></li>
-  </ul>
+    </ul>
   <li>Use <strong>Reactjs</strong> to make frontend</li>
     <ul>
       <li>Applying invitation code mechanism to cluster patients</li>
