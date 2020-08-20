@@ -37,8 +37,7 @@
           <li>Using existing Library--<strong> Mapbox API</strong> to record and intuitively display where the patients live</li>
           <li>Chat system supports both group chating and private chatting</li>
           <li>Performing quality assurance after implementation and taking notes of the API documentation</li>
-        </ul>
-</ol>
+        </ul></ol>
 ---
 
 **Movie online platform[SQL database project]**
