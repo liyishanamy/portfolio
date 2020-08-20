@@ -18,14 +18,14 @@
 ***Highlights of this project***
 
   1.Use <strong>Mongodb</strong> to store all the data</li>
-  2.Use <strong>Express</strong> to make API service</li>
-            -Applying both <strong>access token and basic authentication</strong> method to request access to the API
-            -Implementing <strong>Authentication+Access Token+ Refresh Token</strong> using <strong>JWT</strong>
-            -Applying <strong>image hash</strong> mechanism to save the users' profile pictures to stregthen the security 
-            -Using <strong>hash/salt</strong> to store users password.</li>
-            -Implementing <strong>rate limit</strong> to restrict the use of some API(ex, Users can only change password once a day)
-            -Applying <strong>Pagination</strong> to the some of the API(which return large amount of data)
-           -Implementing Chatting System using <strong>socket io</strong></li>
+  2.Use <strong>Express</strong> to make API service</li> <br/>
+            -Applying both <strong>access token and basic authentication</strong> method to request access to the API<br/>
+            -Implementing <strong>Authentication+Access Token+ Refresh Token</strong> using <strong>JWT</strong><br/>
+            -Applying <strong>image hash</strong> mechanism to save the users' profile pictures to stregthen the security <br/>
+            -Using <strong>hash/salt</strong> to store users password. <br/>
+            -Implementing <strong>rate limit</strong> to restrict the use of some API(ex, Users can only change password once a day) <br/>
+            -Applying <strong>Pagination</strong> to the some of the API(which return large amount of data) <br/>
+           -Implementing Chatting System using <strong>socket io</strong> <br/>
         
   3.Use <strong>Reactjs</strong> to make frontend</li>
         <ul>
