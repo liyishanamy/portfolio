@@ -6,6 +6,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   Second description 
   <br><br>
   <a href="https://www.linkedin.com/in/yishanamy-li/">View My LinkedIn Profile</a> 
+    <br><br>
   <a href="https://github.com/liyishanamy/">View My Github</a> 
   
 theme: jekyll-theme-minimal
