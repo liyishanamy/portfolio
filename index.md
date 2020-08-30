@@ -1,9 +1,7 @@
 ## About Me
-<p>My name is Yishan Li. My friends always call me Amy. I am from Chengdu, Sichuan, China. I did my undergrad in Queen's University and I am doing my master degree(data science and artificial intelligence) in University of Waterloo.</p>
+<p>My name is Yishan Li. My friends always call me Amy. I am from Chengdu, Sichuan, China. I did my undergrad in Queen's University and I am completing my master degree(data science and artificial intelligence) at University of Waterloo.</p>
 ---
-## Portfolio
 
----
 
 ### Software Development
 
