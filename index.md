@@ -1,12 +1,12 @@
 ## About Me
-<p>My name is Yishan Li. My friends always call me Amy. I am from Chengdu, Sichuan, China. I did my undergrad in Queen's University and I am completing my master degree(data science and artificial intelligence) at University of Waterloo.</p>
+<p>My name is Yishan Li. My friends always call me Amy. I am from Chengdu, Sichuan, China. I did my undergrad in Computer Science at Queen's University and I am currently completing my master degree(data science and artificial intelligence) at University of Waterloo.</p>
 ---
 
 
 ### Software Development
 
 **Health Track[NoSQL database project]**
-<p>This project is called the health track. This platform is designed to help doctors to keep track of the patients who are tested positive of COVID19.  Patients can use this platform to report their daily health status (including today's symptoms, today's temperature, whether they have gone somewhere. if they have, whether they wear a facial mask). The doctor can be able to manage all his patients' health status(data, bar char, line graph etc) so that they can view the visual data more clearly and they can also care for the patients more efficiently. Only after 14 days without fever and no symptoms can they make an appointment with doctor. Doctor can also manage all the appointments made by patients, they can also update the test result via this platform.  </p>
+<p>This project is called the health track. This platform is designed to help doctors to keep track of the patients who are tested positive of COVID19.  Patients can use this platform to report their daily health status (including today's symptoms, today's temperature, whether they have gone somewhere. if they have, whether they wear a facial mask). The doctor can be able to manage all his patients' health status data and overall statistic of the data(data, bar char, line graph etc) so that they can visulize the situation more clearly and they can also care for their patients more efficiently. Only after 14 days without fever and no symptoms can they make an appointment with doctor. Doctor can also manage all the appointments made by patients, they can also update the test result via this platform.  </p>
 
 ---
 - [Front End](https://github.com/liyishanamy/healthtrackingplatform_frontend)
