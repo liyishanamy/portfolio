@@ -146,8 +146,8 @@
 <p>Applying <strong>principal component analysis(PCA)</strong> to reduce the dimensionality of the iris dataset to see if a better accuracy could be obtained </p>
 
 
-***A linear regression project***
-- [data set](https://github.com/liyishanamy/linear-regression)
+***Linear regression project***
+[data set](https://github.com/liyishanamy/linear-regression)
 <p>This is a personal project that deploys <strong>linear regression with cross validation method</strong> to classify the data.</p>
 
 
