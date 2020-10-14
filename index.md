@@ -106,8 +106,10 @@
   </ul>
   <li>Writing the final report(paper) to summarize the project</li>
 </ol>
+
 ---
-***Hand-writting Digit[Supervised Learning]***
+
+***Hand-writting Digit***
 
 - [Hand-writting Digit](https://github.com/liyishanamy/neuralNetwork-handWrittenDigit)
 <p>This is a personal project that deploys backpropagation algorithm to train the model to classify the handwritten digit.</p>
@@ -118,7 +120,7 @@
   <li>Implementing the <strong>backpropagation algorithm</strong> using <strong>Python</strong> to let the model learn from the training set, and update the weight accordingly based on the error</li>
   <li>After learning the training set, the model can correctly classify the testing set(handwriten digit) with mor than 90% accuracy </li>
 </ol>
----
+
 - [Hand-writting Digit](https://github.com/liyishanamy/KNN_algorithm)
 <p>This is a personal project that deploys <strong>KNN algorithm with cross validation method</strong> to classify the handwritten digit.</p>
 ---
@@ -129,10 +131,14 @@
 ***Iris Dataset***
 - [Iris Dataset-supervised learning](https://github.com/liyishanamy/iris-dataset)
 <p>Implementing a perceptron(supervised learning) to classify different types of iris based on the certain properties of the iris using both <strong>Python and tensorflow</strong>. Getting more than 97% accuracy.</p>
+
 ---
+
 - [Iris Dataset-unsupervised learning](https://github.com/liyishanamy/iris_LVQ)
 <p>Implementing a unsupervised learning algorithm to classify different types of iris based on the certain properties of the iris using <strong>Python</strong>. Getting more than 95% accuracy.</p>
+
 ---
+
 - [Iris Dataset-PCA](https://github.com/liyishanamy/iris_LVQ)
 <p>Applying <strong>principal component analysis(PCA)</strong> to reduce the dimensionality of the iris dataset to see if a better accuracy could be obtained </p>
 
