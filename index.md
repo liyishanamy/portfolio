@@ -84,7 +84,18 @@
 
 
 ### Data Science
+
 ---
+
+***Data-intensive Distributed Computing(the code cannot be posted until the end of term)***
+<ol>
+  <li>Counting the word in a long article and calculating the PMI between words using <strong>Mapreduce -Java</strong> with algorithm <strong>Pairs and Stripes</strong></li>
+  <li>Counting the word in a long article and calculating the PMI/Bigrams between words using <strong>Spark -Scala</strong> with algorithm <strong>Pairs and Stripes</strong></li>
+  <li>Optimizing the inverted Index project(search) by implementing index compression,buffering posting, term partitioning.  </li>
+</ol>
+
+---
+
 ***Music Genre classification***
 - [Music Genre classification](https://github.com/astralcai/music-genre-classification) 
 - [Report](https://github.com/liyishanamy/music-genre-classification_report)
