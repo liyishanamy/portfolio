@@ -145,6 +145,7 @@
 - [Iris Dataset-PCA](https://github.com/liyishanamy/iris_LVQ)
 <p>Applying <strong>principal component analysis(PCA)</strong> to reduce the dimensionality of the iris dataset to see if a better accuracy could be obtained </p>
 
+---
 
 ***Linear regression project***
 [data set](https://github.com/liyishanamy/linear-regression)
