@@ -109,13 +109,21 @@
 ---
 ***Hand-writting Digit[Supervised Learning]***
 - [Hand-writting Digit](https://github.com/liyishanamy/neuralNetwork-handWrittenDigit)
-<p>This is a personal project that deploy backpropagation algorithm to train the model to classify the handwritten digit.</p>
+<p>This is a personal project that deploys backpropagation algorithm to train the model to classify the handwritten digit.</p>
+
 ***Highlights of this project***
 <ol>
   <li>Using <strong>MNIST database</strong> of handwriten digit as the data,which contains 60000 hand-writen digits</li>
   <li>Implementing the <strong>backpropagation algorithm</strong> using <strong>Python</strong> to let the model learn from the training set, and update the weight accordingly based on the error</li>
   <li>After learning the training set, the model can correctly classify the testing set(handwriten digit) with mor than 90% accuracy </li>
 </ol>
+
+- [Hand-writting Digit]
+<p>This is a personal project that deploys <strong>KNN algorithm with cross validation method</strong> to classify the handwritten digit.</p>
+
+-[Hand-writting Digit]
+<p>This is a personal project that deploys <strong>logistic regression algorithm with cross validation method</strong> to classify the handwritten digit.</p>
+
 ---
 ***Iris Dataset***
 - [Iris Dataset-supervised learning](https://github.com/liyishanamy/iris-dataset)
@@ -126,5 +134,10 @@
  ---
 - [Iris Dataset-PCA](https://github.com/liyishanamy/iris_LVQ)
 <p>Applying <strong>principal component analysis(PCA)</strong> to reduce the dimensionality of the iris dataset to see if a better accuracy could be obtained </p>
+
+
+*** A linear regression project***
+<p>This is a personal project that deploys <strong>linear regression with cross validation method</strong> to classify the data.</p>
+
 
 
