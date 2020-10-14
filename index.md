@@ -119,10 +119,10 @@
   <li>After learning the training set, the model can correctly classify the testing set(handwriten digit) with mor than 90% accuracy </li>
 </ol>
 ---
-- [Hand-writting Digit]
+- [Hand-writting Digit](https://github.com/liyishanamy/KNN_algorithm)
 <p>This is a personal project that deploys <strong>KNN algorithm with cross validation method</strong> to classify the handwritten digit.</p>
 ---
-- [Hand-writting Digit]
+- [Hand-writting Digit](https://github.com/liyishanamy/logistic_regression)
 <p>This is a personal project that deploys <strong>logistic regression algorithm with cross validation method</strong> to classify the handwritten digit.</p>
 
 ---
@@ -138,6 +138,7 @@
 
 
 ***A linear regression project***
+- [data set](https://github.com/liyishanamy/linear-regression)
 <p>This is a personal project that deploys <strong>linear regression with cross validation method</strong> to classify the data.</p>
 
 
