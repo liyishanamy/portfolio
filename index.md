@@ -122,7 +122,7 @@
 - [Hand-writting Digit]
 <p>This is a personal project that deploys <strong>KNN algorithm with cross validation method</strong> to classify the handwritten digit.</p>
 ---
--[Hand-writting Digit]
+- [Hand-writting Digit]
 <p>This is a personal project that deploys <strong>logistic regression algorithm with cross validation method</strong> to classify the handwritten digit.</p>
 
 ---
