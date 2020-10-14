@@ -91,7 +91,7 @@
 <ol>
   <li>Counting the word in a long article and calculating the PMI between words using <strong>Mapreduce -Java</strong> with algorithm <strong>Pairs and Stripes</strong></li>
   <li>Counting the word in a long article and calculating the PMI/Bigrams between words using <strong>Spark -Scala</strong> with algorithm <strong>Pairs and Stripes</strong></li>
-  <li>Optimizing the inverted Index project(search) by implementing index compression,buffering posting, term partitioning.  </li>
+  <li>Optimizing the inverted Index project(search) by implementing index compression,buffering posting, term partitioning using <strong>Mapreduce-java</strong>.  </li>
 </ol>
 
 ---
