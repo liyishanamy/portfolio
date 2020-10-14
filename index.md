@@ -123,11 +123,14 @@
 
 - [Hand-writting Digit](https://github.com/liyishanamy/KNN_algorithm)
 <p>This is a personal project that deploys <strong>KNN algorithm with cross validation method</strong> to classify the handwritten digit.</p>
+
 ---
+
 - [Hand-writting Digit](https://github.com/liyishanamy/logistic_regression)
 <p>This is a personal project that deploys <strong>logistic regression algorithm with cross validation method</strong> to classify the handwritten digit.</p>
 
 ---
+
 ***Iris Dataset***
 - [Iris Dataset-supervised learning](https://github.com/liyishanamy/iris-dataset)
 <p>Implementing a perceptron(supervised learning) to classify different types of iris based on the certain properties of the iris using both <strong>Python and tensorflow</strong>. Getting more than 97% accuracy.</p>
