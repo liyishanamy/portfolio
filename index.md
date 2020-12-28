@@ -119,6 +119,36 @@
 </ol>
 
 ---
+***E-commerce product classification***
+- [E-commerce product classification](https://github.com/liyishanamy/kaggleCompetition) 
+<p>Applying ensemble learning to classify 27 E-commerce products based on the categorical data(gender/baseColor/season/usage/noisyTextDescription/noisy Image)</p>
+***Highlights of this project***
+<ol>
+  <li>Clean and preprocess the dataset</li>
+  <ul>
+    <li>Turn the categorical data to one hot vector</li>
+    <li>Clean up the noisy text description</li>
+    <li>Merge the categorical data with the </li>
+    <li>Match up the noisy image with the corresponding training label.</li>
+  </ul>
+  <li>Algorithm used</li>
+  <ul>
+    <li>Apply the random forest with adaboost on categorical data</li>
+    <li>Apply the multi layer neural network on categorical data</li>
+    <li>Apply tfidf on merged text description and SVM as the model </li>
+    <li>Use the pre-trained word embedding to transform the text description data and train the bidirectional LSTM on the text description data </li>
+    <li>Train CNN model on the noisy images with augmentation</li>
+    <li>Train CNN model on the noisy images without augmentation</li>
+    <li>Concatenate two CNN models(one is to train on text description/one is to train on noisy images) on the dataset and merge the feature maps generated from two CNN and train the feature maps using multi layer neural network</li>
+    <li>Apply the weighted majority voting based on the predictions made by 7 models</li>
+  </ul>
+  <li>Get more than 96% accuracy on the testing data</li>
+</ol>
+
+
+
+
+---
 
 ***Hand-writting Digit***
 
@@ -132,12 +162,12 @@
   <li>After learning the training set, the model can correctly classify the testing set(handwriten digit) with mor than 90% accuracy </li>
 </ol>
 
-- [Hand-writting Digit](https://github.com/liyishanamy/KNN_algorithm)
+- [Hand-writting Digit]
 <p>This is a personal project that deploys <strong>KNN algorithm with cross validation method</strong> to classify the handwritten digit.</p>
 
 ---
 
-- [Hand-writting Digit](https://github.com/liyishanamy/logistic_regression)
+- [Hand-writting Digit]
 <p>This is a personal project that deploys <strong>logistic regression algorithm with cross validation method</strong> to classify the handwritten digit.</p>
 
 ---
@@ -159,8 +189,6 @@
 ---
 
 ***Linear regression project***
-[data set](https://github.com/liyishanamy/linear-regression)
+[data set]
 <p>This is a personal project that deploys <strong>linear regression with cross validation method</strong> to classify the data.</p>
-
-
 
