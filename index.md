@@ -144,12 +144,36 @@
   </ul>
   <li>Get more than 96% accuracy on the testing data</li>
 </ol>
-
-
-
-
 ---
+***Toxic-comment detection project***
+- [Toxic-comment detection project](https://github.com/liyishanamy/detect_toxic_comment) 
+- [Report](https://github.com/liyishanamy/detect_toxic_comment/blob/master/cs651_finalproject.pdf)
+<p>Applying ensemble learning to build a binary classifier(clean/toxic comment)and a multilabel classifier(clean/toxic/severe toxic/obscene/insult/threat/identity hate) using <strong>PySpark</strong></p>
+***Highlights of this project***
+<ol>
+  <li>Clean and preprocess the dataset</li>
+  <ul>
+    <li>Convert all the texts to lower cases,removed special characters and digits from each comments</li>
+    <li>Adjust the space accordingly and ensure only one white space is found between words.</li>
+    <li>Employ the snowball Stemmer algorithm to reduce the inflectional forms of words</li>
+    <li>Remove the stop words from the comments</li>
+    <li>Given the fact that the dataset is highly imbalanced, we applied the techniques - oversampling and undersampling to obtain a balanced dataset </li>
+  </ul>
+  <li>Feature Extraction</li>
+  <ul>
+    <li>TFIDF(A statistical measure that is used to evaluate how important of the features)</li>
+    <li>N-gram(N=1,2,3) + TFIDF</li>
+  </ul>
+  <li>Model Used</li>
+  <ul>
+    <li>Train the binary classifier and multi-label classifier(one vs Rest) respectively - Logistic Regression, SVM, Naive Bayse,Decision Trees,Gradient boosted tree</li>
+    <li>Apply the majority voting based on the predictions made by the 5 models</li>
+    <li>Do the above experiment on the ensemble model with different feature technique/with or without undersampling and oversampling</li>
+  </ul>
+  <li>Conclusion:Our model is able to detect unclean comments with 93% accuracy and is able to categorize unclean comments into the categories hate_speech, toxic, insult and obscene with 80% accuracy.By leveraging Apache Spark, our training framework is designed to scale well with the amount of data provided. Optimal performance for toxic detection occurred when we used unigrams and bigrams instead of higher-ordered n- grams for feature extraction, suggesting that toxic detection is a syntactic problem. To improve the recall of the multilabel classifier, we have tried techniques like undersampling and oversampling. The results show that the two techniques improve the recall significantly but degrades the overall test accuracy. To solve the class imbalance problem without compromising the overall performance of our model, we need to increase the minority class with good samples. One way we could accomplish this is by injecting unclean comments from other datasets into our dataset. Additionally, while the difference between clean and unclean data may be largely syntactic, the difference between a threat and an insult could be semantic in nature. This motivates us to explore other pre-trained word embeddings capable of capturing semantic information (i.e., glove, word2vec, BERT). Most of the research we have surveyed shows that using these pre-trained word embeddings boosts the model performance in text analysis tasks</li>
 
+</ol>
+---
 ***Hand-writting Digit***
 
 - [Hand-writting Digit](https://github.com/liyishanamy/neuralNetwork-handWrittenDigit)
