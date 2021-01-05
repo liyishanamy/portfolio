@@ -173,33 +173,17 @@
   <li>Conclusion:Our model is able to detect unclean comments with 93% accuracy and is able to categorize unclean comments into the categories hate_speech, toxic, insult and obscene with 80% accuracy.By leveraging Apache Spark, our training framework is designed to scale well with the amount of data provided. Optimal performance for toxic detection occurred when we used unigrams and bigrams instead of higher-ordered n- grams for feature extraction, suggesting that toxic detection is a syntactic problem. To improve the recall of the multilabel classifier, we have tried techniques like undersampling and oversampling. The results show that the two techniques improve the recall significantly but degrades the overall test accuracy. To solve the class imbalance problem without compromising the overall performance of our model, we need to increase the minority class with good samples. One way we could accomplish this is by injecting unclean comments from other datasets into our dataset. Additionally, while the difference between clean and unclean data may be largely syntactic, the difference between a threat and an insult could be semantic in nature. This motivates us to explore other pre-trained word embeddings capable of capturing semantic information (i.e., glove, word2vec, BERT). Most of the research we have surveyed shows that using these pre-trained word embeddings boosts the model performance in text analysis tasks</li>
 
 </ol>
----
-***Hand-writting Digit***
+***Assignment***
 
+***Backpropagation***
+---
 - [Hand-writting Digit](https://github.com/liyishanamy/neuralNetwork-handWrittenDigit)
-<p>This is a personal project that deploys backpropagation algorithm to train the model to classify the handwritten digit.</p>
+<p>This is a personal project that deploys backpropagation algorithm to train the model to classify the handwritten digit.After learning the training set.</p>
 
-***Highlights of this project***
-<ol>
-  <li>Using <strong>MNIST database</strong> of handwriten digit as the data,which contains 60000 hand-writen digits</li>
-  <li>Implementing the <strong>backpropagation algorithm</strong> using <strong>Python</strong> to let the model learn from the training set, and update the weight accordingly based on the error</li>
-  <li>After learning the training set, the model can correctly classify the testing set(handwriten digit) with mor than 90% accuracy </li>
-</ol>
-
-- [Hand-writting Digit]
-<p>This is a personal project that deploys <strong>KNN algorithm with cross validation method</strong> to classify the handwritten digit.</p>
-
----
-
-- [Hand-writting Digit]
-<p>This is a personal project that deploys <strong>logistic regression algorithm with cross validation method</strong> to classify the handwritten digit.</p>
-
----
 
 ***Iris Dataset***
 - [Iris Dataset-supervised learning](https://github.com/liyishanamy/iris-dataset)
 <p>Implementing a perceptron(supervised learning) to classify different types of iris based on the certain properties of the iris using both <strong>Python and tensorflow</strong>. Getting more than 97% accuracy.</p>
-
 ---
 
 - [Iris Dataset-unsupervised learning](https://github.com/liyishanamy/iris_LVQ)
@@ -211,8 +195,39 @@
 <p>Applying <strong>principal component analysis(PCA)</strong> to reduce the dimensionality of the iris dataset to see if a better accuracy could be obtained </p>
 
 ---
+***KNN***
+---
+- [Hand-writting Digit](https://github.com/liyishanamy/machineLearningAssignment/tree/main/680%20assignment)
+<p>This is a personal project that deploys <strong>KNN algorithm with cross validation method</strong> to classify the handwritten digit.</p>
+
+***Logistic Regression***
+---
+- [Hand-writting Digit](https://github.com/liyishanamy/machineLearningAssignment/tree/main/680%20assignment)
+<p>This is a personal project that deploys <strong>logistic regression algorithm with cross validation method</strong> to classify the handwritten digit.</p>
 
 ***Linear regression project***
-[data set]
+---
+- [Linear Regression](https://github.com/liyishanamy/machineLearningAssignment/tree/main/680%20assignment)
 <p>This is a personal project that deploys <strong>linear regression with cross validation method</strong> to classify the data.</p>
+
+***Linear regression project***
+---
+- [Linear Regression](https://github.com/liyishanamy/machineLearningAssignment/tree/main/680%20assignment)
+<p>This is a personal project that deploys <strong>linear regression with cross validation method</strong> to classify the data.</p>
+
+***Gaussian process project***
+---
+- [Gaussian Process](https://github.com/liyishanamy/machineLearningAssignment/tree/main/680%20assignment)
+<p>This is a personal project that deploys <strong>gaussian process with cross validation method</strong> to classify the data.</p>
+
+
+***Generalized linear regression project***
+---
+- [Generalized linear regression](https://github.com/liyishanamy/machineLearningAssignment/tree/main/680%20assignment)
+<p>This is a personal project that deploys <strong>generalized linear regression with cross validation method</strong> to classify the data.</p>
+
+***CNN***
+---
+- [CNN](https://github.com/liyishanamy/machineLearningAssignment/tree/main/680%20assignment)
+<p>This is a personal project that deploys <strong>deep neural network CNN </strong> to classify the cifar10 image dataset and compare the performance of CNN with different CNN layers,different activation function .</p>
 
