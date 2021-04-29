@@ -84,8 +84,6 @@
 
 
 ### Data Science
-
-
 ---
 ***Movie Recommendation system***
 
@@ -94,7 +92,24 @@ movie to the target user becomes a significant research problem. Recent research
 models’ performance with the baseline model, matrix factorization algorithm. The test result shows the remarkable effectiveness of my proposed hybrid solution over the baseline model. The best-performed model, the random forest algorithm, improves 10.8% compared to the baseline model. This
 study explores that enhancing the models’ performance is not restricted to extending the models. However, the feature engineering procedure can also extensively boost the recommendation system accuracy and enable the regression models to deliver better recommendation tasks than a robust algorithm, matrix factorization without using feature engineering.
 
-
+***Highlights of this project***
+<ol>
+  <li>The dataset I used to train and evaluate the model is MovieLens(ml-latest-small), a subset of the movie dataset(ml-largest-large). The main dataset I used is rating, linking, moviemetadata</li>
+  <li>A new dataset with new features is constructed by leveraging averages, content-based approach, collaborative filtering approach.</li>
+  <ul>
+    <li>Averages features: The average ratings of all movies given by a specific user and the average ratings of a specific movie provided by all users. These two averages are added to the rating table for all users and movies in each row</li>
+    <li>Content-based features: I started by combining all the metadata features I am interested in, which are keyword, director, genre, and main character. Then I applied TFIDF to capture how important a particular term is to a movie document. The sequence of TFIDF scores has now become the new feature for each movie. Similarly, I applied cosine similarity between the TFIDF scores for each movie and obtained a movie similarity matrix. For every movie in the movie similarity matrix, I recorded the top three most similar movies rated by the target user as the new features. If insufficient features are obtained, I will replace the feature with the corresponding movie average rating.</li>
+    <li>Collaborative filtering features, I started by constructing the user movie interaction matrix from the user rating dataset and applied the cosine similarity on each user. For every user in the user similarity matrix, I extracted the top three most similar users who also rated the particular movie and recorded their ratings as new features. If insufficient features are obtained, I will replace the features with the corresponding user average ratings. </li>
+   </ul>
+<li>Experiment Design:Matrix factorization is a robust algorithm that works by decomposing the user-movie interaction matrix into a product of user matrix and movie matrix using singular value decomposition. In this study, the matrix factorization algorithm is treated as a baseline model. The proposed models are KNN, ridge regression and random forest algorithms. The new dataset is randomly split into 90% training data and 10%testing data. The baseline model and proposed models are trained on the same 90% of training data and evaluated on same 10% testing data but with different features.I use RMSE and MAE as the evaluation metrics to evaluate the performance of the models.5-fold cross-validation are applied on the proposed models to find the best set of hyperparameters that fit the models well.
+</li>
+<li>Model:</li>
+ <ul>
+   <li>KNN is one of the traditional models in the recommendation system. It works by grouping the target user with the k nearest neighbour to compute an average of the neighbours’ ratings.The fivefold cross-validation result suggests me to choose neighbour size to be 8. </li>
+   <li>Linear regression establishes a  relationship between the dependent variable and one or more independent variables using a  best fit straight line. Ridge regression works by introducing a penalty term in the objective function to prevent the model from being overfitting.Since the error change is not sensitive to the magnitude of lambda. Five fold cross-validation suggests me to choose lambda - 1.5</li>
+   <li>The random forest algorithm is an ensemble learning model that prevents the model from being overfitted by constructing multiple decision trees and allows each decision tree to train on samples of the training data.  This ensures that the regression model does not overly rely on any individual features.Five fold cross-validation suggests me to choose max_depth is 10. </li>
+   <li>Result: Baseline model performs well during training time but perform very badly on the testing data, which indicates overfitting occurs. Three proposed models performed significantly better than the baseline model. In particular, The random Forest model achieved the best performance among all regression models, making a 10.8% improvement compared to the baseline model. Those models are also tested using the five times two cross-validation paired t-test to compare if the performance of the two models is significantly different. The test result shows that the improvement made by proposed regression models is not due to statistical chance. </li>   
+</ol>
 ---
 
 ***Data-intensive Distributed Computing***
