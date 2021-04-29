@@ -85,9 +85,19 @@
 
 ### Data Science
 
+
+---
+***Movie Recommendation system***
+
+Nowadays, the explosive growth of digital information creates a great challenge for users, hindering timely access to items of interest available online. Recommendation systems help drive user engagement on the online platforms by generating personalized recommendations based on a user’s past behaviour. In recent years, the recommendation system has become an effective approach to avoid information overload for users. How to effectively recommend a personalized
+movie to the target user becomes a significant research problem. Recent research has focused on improving the recommendation system’s performance by extending the contentbased approach, collaborative filtering approach and hybrid approach. However, in this paper, I focus on developing a data-driven hybrid solution to deliver recommendation tasks. The recommendation system trains three regression models, namely KNN, ridge regression model, and random forest models, on a new dataset produced by leveraging rating averages, content-based approach and collaborative filtering approach. Then, I empirically compared three hybrid regression
+models’ performance with the baseline model, matrix factorization algorithm. The test result shows the remarkable effectiveness of my proposed hybrid solution over the baseline model. The best-performed model, the random forest algorithm, improves 10.8% compared to the baseline model. This
+study explores that enhancing the models’ performance is not restricted to extending the models. However, the feature engineering procedure can also extensively boost the recommendation system accuracy and enable the regression models to deliver better recommendation tasks than a robust algorithm, matrix factorization without using feature engineering.
+
+
 ---
 
-***Data-intensive Distributed Computing(the code cannot be posted until the end of term)***
+***Data-intensive Distributed Computing***
 <ol>
   <li>Counting the word in a long article and calculating the PMI between words using <strong>Mapreduce -Java</strong> with algorithm <strong>Pairs and Stripes</strong></li>
   <li>Counting the word in a long article and calculating the PMI/Bigrams between words using <strong>Spark -Scala</strong> with algorithm <strong>Pairs and Stripes</strong></li>
