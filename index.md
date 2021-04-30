@@ -114,7 +114,6 @@ study explores that enhancing the models’ performance is not restricted to ext
   
   
 ---
-
 ***Data-intensive Distributed Computing***
 <ol>
   <li>Counting the word in a long article and calculating the PMI between words using <strong>Mapreduce -Java</strong> with algorithm <strong>Pairs and Stripes</strong></li>
@@ -123,7 +122,6 @@ study explores that enhancing the models’ performance is not restricted to ext
 </ol>
 
 ---
-
 ***Music Genre classification***
 - [Music Genre classification](https://github.com/astralcai/music-genre-classification) 
 - [Report](https://github.com/liyishanamy/music-genre-classification_report)
@@ -172,6 +170,7 @@ study explores that enhancing the models’ performance is not restricted to ext
   </ul>
   <li>Get more than 96% accuracy on the testing data</li>
 </ol>
+
 ---
 ***Toxic-comment detection project***
 - [Toxic-comment detection project](https://github.com/liyishanamy/detect_toxic_comment) 
