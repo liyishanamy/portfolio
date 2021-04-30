@@ -87,6 +87,8 @@
 
 ---
 ***Movie Recommendation system***
+- [Movie-Recommendation system](https://github.com/liyishanamy/MovieRecommendationSystem/blob/main/movieRecommendationWithFeatureEngineering.ipynb) 
+- [Report](https://github.com/liyishanamy/MovieRecommendationSystem/blob/main/d4.pdf)
 
 Nowadays, the explosive growth of digital information creates a great challenge for users, hindering timely access to items of interest available online. Recommendation systems help drive user engagement on the online platforms by generating personalized recommendations based on a user’s past behaviour. In recent years, the recommendation system has become an effective approach to avoid information overload for users. How to effectively recommend a personalized
 movie to the target user becomes a significant research problem. Recent research has focused on improving the recommendation system’s performance by extending the contentbased approach, collaborative filtering approach and hybrid approach. However, in this paper, I focus on developing a data-driven hybrid solution to deliver recommendation tasks. The recommendation system trains three regression models, namely KNN, ridge regression model, and random forest models, on a new dataset produced by leveraging rating averages, content-based approach and collaborative filtering approach. Then, I empirically compared three hybrid regression
